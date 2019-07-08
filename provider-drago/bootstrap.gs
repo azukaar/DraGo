@@ -25,7 +25,7 @@ var result = {
     dependencies: {
         defaultProvider: "go",
         default: {
-            "https://azukaar.github.io/DraGo/repo:drago": "master",
+            "https://azukaar.github.io/DraGo/repo:drago": "master"
         }
     },
     cli: {
