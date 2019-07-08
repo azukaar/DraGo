@@ -41,9 +41,15 @@ writeJsonFile("gupm.json", result)
 writeFile(".gupm_rc.gs", 'env("GOPATH", run("go", ["env", "GOROOT"]) + ":" + pwd() + "/go_modules")')
 
 writeFile("build.gs", 
-'removeFiles(["build"])\n' +
-'exec("go", ["build", "-o", "build/webkit", "src/webkit.go"]);\n' + 
-'exec("go", ["build", "-o", "build/browser", "src/browser.go"]);\n' 
+    'removeFiles(["build"])\n' +
+    'exec("go", ["build", "-o", "build/webkit", "src/webkit.go"]);\n' + 
+    'exec("go", ["build", "-o", "build/browser", "src/browser.go"]);\n' 
+)
+
+writeFile("make.gs", 
+    '// hack until gupm support exporting dependencies' +
+    'mkdir("go_modules/src")' +
+    'createSymLink("gupm_modules/drago", "go_modules/src/drago")'
 )
 
 mkdir('src')
