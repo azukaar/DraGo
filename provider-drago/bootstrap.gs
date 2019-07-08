@@ -58,7 +58,7 @@ mkdir('src/components')
 writeFile("src/webkit.go", webkitFile)
 writeFile("src/browser.go", webkitFile)
 
-writeFile("src/components/app.go", webkitFile)
+writeFile("src/components/app.go", appFile)
 
 readme = "# "+name + "\n";
 readme += "# Installation\n";
