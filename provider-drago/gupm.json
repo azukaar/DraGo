@@ -1,6 +1,6 @@
 {
     "name": "provider-drago",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publish": {
         "source": ["."],
         "dest": "../docs/repo"
