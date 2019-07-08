@@ -22,7 +22,7 @@ var result = {
         defaultProvider: "go",
         default: {
             "go://github.com/zserge/webview": "master",
-            "https://azukaar.github.io/drago/repo:drago": "master",
+            "https://azukaar.github.io/DraGo/repo:drago": "master",
         }
     },
     cli: {
