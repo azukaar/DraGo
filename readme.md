@@ -1,4 +1,4 @@
-![title](./docs/banner.png)
+![title](./docs/bannerbig.png)
 
 # DraGo, React for Go
 
