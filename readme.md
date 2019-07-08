@@ -8,7 +8,7 @@ it supports only functional componennts (Go doesn't have classes) and provide ho
 using GuPM, first, install the drago provider which allow you to bootstrap projects easily.
 
 ```bash
-g plugin install https://azukaar.github.io/drago-provider/repo:drago-provider
+g plugin install https://azukaar.github.io/DraGo/repo:provider-drago
 ```
 
 Then get started: 

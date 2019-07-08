@@ -1,6 +1,6 @@
 {
     "packages": {
-        "Drago": [
+        "drago": [
             "0.0.1"
         ],
         "provider-drago": [
