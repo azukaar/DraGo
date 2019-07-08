@@ -1,0 +1,23 @@
+{
+    "author": "Yann Stepienik",
+    "cli": {
+        "aliases": {
+            "webkit": "scaffolding/webkit",
+            "browser": "scaffolding/browser"
+        }
+    },
+    "publish": {
+        "source": ["./*.go", "gupm.json"],
+        "dest": "docs/repo"
+    },
+    "dependencies": {
+        "default": {
+            "go://github.com/zserge/webview": "master"
+        },
+        "defaultProvider": "go"
+    },
+    "description": "React like framework with hooks, for Go",
+    "licence": "ISC",
+    "name": "drago",
+    "version": "0.0.1"
+}
