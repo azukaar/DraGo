@@ -18,6 +18,6 @@
     },
     "description": "React like framework with hooks, for Go",
     "licence": "ISC",
-    "name": "drago",
+    "name": "src/drago",
     "version": "0.0.1"
 }
