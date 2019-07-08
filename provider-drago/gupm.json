@@ -1,0 +1,14 @@
+{
+    "name": "provider-drago",
+    "version": "0.0.2",
+    "publish": {
+        "source": ["."],
+        "dest": "../docs/repo"
+    },
+    "config": {
+        "default": {
+            "entrypoint": "gupm.json",
+            "installPath": "gupm_modules"
+        }
+    }
+}
