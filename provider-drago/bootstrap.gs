@@ -47,9 +47,9 @@ writeFile("build.gs",
 )
 
 writeFile("make.gs", 
-    '// hack until gupm support exporting dependencies' +
-    'mkdir("go_modules/src")' +
-    'createSymLink("gupm_modules/drago", "go_modules/src/drago")'
+    '// hack until gupm support exporting dependencies\n' +
+    'mkdir("go_modules/src")\n' +
+    'copyFiles("gupm_modules/drago", "go_modules/src/drago")\n'
 )
 
 mkdir('src')
