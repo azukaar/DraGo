@@ -38,7 +38,7 @@ var result = {
 
 
 writeJsonFile("gupm.json", result)
-writeFile(".gupm_rc.gs", 'env("GOPATH", run("go", ["env", "GOROOT"]) + ":" + pwd() + "/go_modules")')
+writeFile(".gupm_rc.gs", 'env("GOPATH", run("go", ["env", "GOROOT"]) + ":" + pwd() + "/go_modules" + ":" + pwd() + "/gupm_modules")')
 
 writeFile("build.gs", 
     'removeFiles(["build"])\n' +
