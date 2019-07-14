@@ -46,12 +46,6 @@ writeFile("build.gs",
     'exec("go", ["build", "-o", "build/browser", "src/browser.go"]);\n' 
 )
 
-writeFile("make.gs", 
-    '// hack until gupm support exporting dependencies\n' +
-    'mkdir("go_modules/src")\n' +
-    'copyFiles("gupm_modules/drago", "go_modules/src/drago")\n'
-)
-
 mkdir('src')
 mkdir('src/components')
 
