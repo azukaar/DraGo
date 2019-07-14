@@ -17,7 +17,8 @@
         "defaultProvider": "go"
     },
     "description": "React like framework with hooks, for Go",
-    "licence": "ISC",
+    "license": "ISC",
     "name": "drago",
-    "version": "0.0.1"
+    "version": "0.0.2",
+    "wrapInstallFolder": "src"
 }
